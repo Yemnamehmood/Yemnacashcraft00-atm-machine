@@ -9,8 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "YEMNA MEHMOOD
-  ",
+  "author": "YEMNA MEHMOOD".
   "license": "ISC",
   "dependencies": {
     "inquirer": "^9.2.16"
