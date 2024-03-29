@@ -40,7 +40,17 @@ if (pinAnswer.pin === mypin){
             ]
         );
 
-        console.log(amountAns.Amount);
+                if (amountAns.Amount > mybalance) {
+                    console.log("Insufficient balance.");
+                    
+                } else{
+                      mybalance -= amountAns.Amount;
+                     console.log(`Your remaining balance is: ${mybalance}`);
+                }
+
+
+
+
 
         mybalance -= amountAns.Amount;
         console.log(`Your remaining balance is: ${mybalance}`);
